@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(84, 41, 84);
+    padding: 100px 100px;
+
+}
+
+.btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: rgb(56, 91, 3);
+    border-radius: 13px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    
+}
+
+h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+
+.notesBox{
+    position: relative;
+    width: 350px;
+    min-height: 170px;
+    margin: 40px 20px 0;
+    background-color: white;
+    border-radius: 7px;
+    padding: 8px 8px;
+    overflow-x: scroll;
+}
+
+.notesBox img{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    height: 40px;
+}
+
+
